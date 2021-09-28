@@ -1,9 +1,13 @@
 {
-  "name": "week3.2",
-  "version": "0.0.0",
+  "name": "comp229-f2021-week3",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -17,5 +21,18 @@
     "morgan": "~1.9.1",
     "nodemon": "^2.0.13",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "demo app for COMP229",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kx-qf/COMP229-F2021-WEEK3.git"
+  },
+  "author": "Zhaoji Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kx-qf/COMP229-F2021-WEEK3/issues"
+  },
+  "homepage": "https://github.com/kx-qf/COMP229-F2021-WEEK3#readme"
 }
