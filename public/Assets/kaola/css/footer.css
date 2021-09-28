@@ -1,0 +1,135 @@
+#footer {
+  width: 100%;
+  background-color: #fff;
+}
+#footer .gray-bg {
+  height: 80px;
+  background-color: #F0F0F0;
+}
+#footer .aftersale {
+  width: 1100px;
+  margin: 0 auto;
+}
+#footer .main-aftersale {
+  border-bottom: 1px solid #eee;
+}
+#footer .main-aftersale ul {
+  display: flex;
+}
+#footer .main-aftersale li {
+  flex: 1;
+  padding-top: 48px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+#footer .main-aftersale li div {
+  float: left;
+}
+#footer .main-aftersale .quality-icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  border: 2px solid #D6D6D6;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+#footer .main-aftersale .quality-txt {
+  font-size: 14px;
+}
+#footer .main-aftersale .quality-txt h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+#footer .detail-aftersale {
+  display: flex;
+  padding-top: 45px;
+  padding-bottom: 70px;
+}
+#footer .footer-logo {
+  height: 43px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+#footer .our-way div.ours {
+  padding-top: 12px;
+}
+#footer .our-way div.way {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+}
+#footer .our-way .phone-code {
+  display: none;
+  position: absolute;
+  top: 42px;
+  left: -42px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+#footer .our-way .phone-code:after {
+  position: absolute;
+  display: block;
+  top: -6px;
+  left: 50%;
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin-left: -5px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  transform: rotate(45deg);
+  border-bottom: 0;
+  border-right: 0;
+}
+#footer .our-way .way:hover .phone-code {
+  display: block;
+}
+#footer .footer-attention {
+  padding-left: 80px;
+}
+#footer .footer-attention dl {
+  float: left;
+  margin-right: 26px;
+}
+#footer .footer-attention dt {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+#footer .footer-attention a {
+  line-height: 31px;
+  color: #333;
+}
+#footer .footer-attention a:hover {
+  text-decoration: underline;
+}
+#footer .footer-code p {
+  text-align: center;
+  margin-top: 5px;
+}
+#footer .about-website {
+  padding: 20px 0;
+  text-align: center;
+  line-height: 28px;
+  color: #C2C2C2;
+  background-color: #333;
+}
+#footer .about-website a {
+  color: #C2C2C2;
+}
+#footer .about-website a:hover {
+  text-decoration: underline;
+}
+#footer .about-website p > * {
+  margin-right: 20px;
+}
+#footer .about-website p:last-child img {
+  margin-top: 5px;
+  height: 30px;
+  border-radius: 5px;
+}

@@ -1,0 +1,27 @@
+#fname:invalid 
+{background: rgb(250, 210, 234);}
+#lname:invalid 
+{background: rgb(250, 210, 234);}
+#add:invalid 
+{background: rgb(250, 210, 234);}
+#city:invalid 
+{background: rgb(250, 210, 234);}
+#postal:invalid 
+{background: rgb(250, 210, 234);}
+#province:invalid 
+{background: rgb(250, 210, 234);}
+#age:invalid 
+{background: rgb(250, 210, 234);}
+#password:invalid 
+{background: rgb(250, 210, 234);}
+#confirm:invalid 
+{background: rgb(250, 210, 234);}
+#email:invalid 
+{background: rgb(250, 210, 234);}
+body{
+    width:980px;
+    background-color:rgb(245, 152, 13);
+     color:rgb(0, 0, 0); 
+     font-family:
+     Verdana;
+}

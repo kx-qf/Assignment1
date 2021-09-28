@@ -1,0 +1,408 @@
+#content {
+  width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  /*户外运动*/
+  /*热门品牌*/
+}
+#content .content-item {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#content .con-title {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding-top: 25px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+#content .con-title h2 {
+  font-size: 22px;
+  color: #333;
+  font-weight: bold;
+}
+#content .con-title .con-hot {
+  margin-top: 12px;
+  margin-left: 22px;
+  color: #999;
+}
+#content .con-title .con-hot > a {
+  margin-left: 20px;
+  color: #999;
+}
+#content .con-title .con-hot a.active {
+  color: red;
+}
+#content .con-title .con-more {
+  flex: 1;
+  text-align: right;
+  margin-top: 12px;
+}
+#content .con-title .con-more a {
+  color: #999;
+}
+#content .con-title a:hover {
+  text-decoration: underline;
+}
+#content .con-pro {
+  background-color: #fff;
+}
+#content .con-pro > div {
+  float: left;
+}
+#content .pro-main {
+  position: relative;
+  width: 330px;
+  height: 541px;
+}
+#content .pro-main-nav {
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+  width: 306px;
+}
+#content .pro-main-nav li {
+  overflow: hidden;
+  float: left;
+  width: 78px;
+  height: 38px;
+  margin: 7px 8px 0;
+  border: 2px solid #ccc;
+  border-radius: 21px;
+  text-align: center;
+  line-height: 38px;
+  background-color: #fff;
+}
+#content .pro-main-nav li > a {
+  display: block;
+  color: #333;
+}
+#content .pro-main-nav li a:hover {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.01);
+}
+#content .pro-list {
+  width: 548px;
+  height: 541px;
+}
+#content .pro-list a {
+  color: #666;
+}
+#content .pro-list li {
+  float: left;
+  width: 274px;
+  height: 271px;
+  border: 1px solid #eee;
+  border-left: 0;
+  text-align: center;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+#content li.border-top {
+  border-top: 0;
+}
+#content .pro-list-title {
+  padding-top: 30px;
+}
+#content .pro-list-title h3 {
+  color: #333;
+  font-size: 24px;
+}
+#content .pro-list-title p {
+  margin-top: 3px;
+}
+#content .pro-banner {
+  position: relative;
+  width: 222px;
+  height: 541px;
+  border: 1px solid #eee;
+  border-left: 0;
+  box-sizing: border-box;
+}
+#content .pro-banner .title {
+  height: 59px;
+  border-bottom: 1px solid #eee;
+  line-height: 59px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  text-indent: 10px;
+}
+#content .pro-banner .btn {
+  position: absolute;
+  top: 27px;
+  right: 10px;
+  width: 33px;
+  height: 10px;
+}
+#content .pro-banner .btn span {
+  float: left;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-left: 3px;
+  background-color: #eee;
+}
+#content .pro-banner .btn span.active {
+  background-color: #333;
+}
+#content .pro-banner .pro-bannerbox ul {
+  position: absolute;
+  left: 0;
+  top: 60px;
+}
+#content .pro-banner .pro-bannerbox ul li {
+  width: 215px;
+  padding: 26px 1px 15px 5px;
+  border-bottom: 1px dotted #eee;
+}
+#content .pro-banner .pro-bannerbox ul li > div {
+  float: left;
+}
+#content .pro-banner .pro-bannerbox ul li .bannerbox-info {
+  width: 119px;
+  margin-left: 10px;
+}
+#content .pro-banner .pro-bannerbox ul li .bannerbox-info a {
+  color: #999;
+}
+#content .pro-banner .pro-bannerbox ul li .bannerbox-info a:hover {
+  text-decoration: underline;
+}
+#content .pro-banner .pro-bannerbox ul li .bannerbox-info .price {
+  margin-top: 13px;
+}
+#content .pro-banner .pro-bannerbox ul li .bannerbox-info span {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  margin-right: 10px;
+}
+#content .pro-banner .pro-bannerbox ul li .bannerbox-info del {
+  font-size: 14px;
+  color: #999;
+}
+#content .hot-brand {
+  height: 218px;
+  margin-top: 20px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+#content .hot-brand h4 {
+  height: 49px;
+  line-height: 49px;
+  text-indent: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+}
+#content .hot-brand .hot-pro-list {
+  display: flex;
+  height: 167px;
+}
+#content .hot-brand .hot-pro-list > li {
+  position: relative;
+  flex: 1;
+  text-align: center;
+  padding-top: 24px;
+}
+#content .hot-brand .hot-pro-list > li a {
+  display: block;
+  height: 100%;
+}
+#content .hot-brand .hot-pro-list > li .love {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  background: url("../image/content/favorite.png") no-repeat;
+  cursor: pointer;
+}
+#content .hot-brand .hot-pro-list > li:hover .love {
+  display: block;
+}
+#content .hot-brand .hot-pro-list > li + li {
+  border-left: 1px solid #eee;
+}
+#content .hots .con-more a {
+  margin-right: 5px;
+}
+#content .hots .con-more span {
+  display: inline-block;
+  transition: transform 0.5s;
+}
+#content .hots .con-more:hover .rotate {
+  transform: rotate(360deg);
+}
+#content .hots .con-list {
+  display: flex;
+  height: 355px;
+}
+#content .hots .con-list .hot-float {
+  float: left;
+}
+#content .hots .con-list .left-hot {
+  position: relative;
+  width: 220px;
+  background-color: pink;
+}
+#content .hots .con-list .left-hot li {
+  position: absolute;
+  width: 220px;
+}
+#content .hots .con-list .left-hot li > a {
+  display: block;
+  width: 100%;
+}
+#content .hots .con-list .left-hot li > a img {
+  width: 100%;
+}
+#content .hots .con-list .left-hot .desc {
+  height: 136px;
+  background-color: #424242;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+#content .hots .con-list .left-hot .desc h3 {
+  padding: 40px 0 4px;
+}
+#content .hots .con-list .left-hot .desc p,
+#content .hots .con-list .left-hot .desc h3 {
+  margin: 0 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#content .hots .con-list .left-hot .desc p {
+  font-size: 14px;
+}
+#content .hots .con-list .left-hot .line {
+  position: absolute;
+  bottom: 135px;
+  height: 2px;
+  width: 30%;
+  background-color: red;
+}
+#content .hots .con-list .left-hot .item2 .line {
+  width: 60%;
+}
+#content .hots .con-list .left-hot .item3 .line {
+  width: 100%;
+}
+#content .hots .con-list .left-hot .btn {
+  display: none;
+  z-index: 4;
+  position: absolute;
+  top: 93px;
+  width: 30px;
+  height: 34px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 34px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#content .hots .con-list .left-hot .btn:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+#content .hots .con-list .left-hot .right-btn {
+  right: 0;
+}
+#content .hots .con-list .left-hot:hover .btn {
+  display: block;
+}
+#content .hots .con-list .right-hot {
+  flex: 1;
+  height: 355px;
+  border: 1px solid #eee;
+  border-right: 0;
+}
+#content .hots .con-list .right-hot > ul {
+  display: flex;
+  flex-wrap: wrap;
+  height: 355px;
+}
+#content .hots .con-list .right-hot > ul > li {
+  position: relative;
+  width: 218.5px;
+  height: 176px;
+  background-color: #fff;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+#content .hots .con-list .right-hot > ul .img {
+  margin-top: 12px;
+  text-align: center;
+}
+#content .hots .con-list .right-hot > ul .img p {
+  margin-top: 15px;
+  font-weight: bold;
+}
+#content .hots .con-list .right-hot > ul .mask {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 176px;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+#content .hots .con-list .right-hot > ul .mask .attention {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 52px;
+  height: 22px;
+  border: 1px solid #999;
+  border-radius: 12px;
+  line-height: 22px;
+  color: #999;
+  cursor: pointer;
+}
+#content .hots .con-list .right-hot > ul .mask .entrance {
+  position: absolute;
+  width: 100%;
+  bottom: 16px;
+}
+#content .hots .con-list .right-hot > ul .mask .entrance p {
+  color: #999;
+  margin-bottom: 5px;
+}
+#content .hots .con-list .right-hot > ul .mask .entrance a {
+  display: inline-block;
+  width: 76px;
+  height: 30px;
+  border: 2px solid red;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  color: red;
+  border-radius: 18px;
+}
+#content .hots .con-list .right-hot img {
+  transition: 0.2s;
+  transform-origin: top center;
+}
+#content .hots .con-list .right-hot li:hover img {
+  transform: scale(0.7);
+}
+#content .hots .con-list .right-hot li:hover .img > p {
+  display: none;
+}
+#content .hots .con-list .right-hot li:hover .mask {
+  display: block;
+}
+#content .hots .con-list .right-hot .attention:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+#content .hots .con-list .right-hot .entrance a:hover {
+  background-color: rgba(255, 0, 0, 0.03);
+}

@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1617812",
+      "name": "1109加载中",
+      "font_class": "jiazaizhong",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "3849974",
+      "name": "售后",
+      "font_class": "shouhou",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "4598257",
+      "name": "大于号",
+      "font_class": "dayuhao",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "10026291",
+      "name": "正品",
+      "font_class": "zhengpin",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "13087856",
+      "name": "自营业务",
+      "font_class": "ziyingyewu",
+      "unicode": "e7cb",
+      "unicode_decimal": 59339
+    },
+    {
+      "icon_id": "21106039",
+      "name": "全球",
+      "font_class": "diqiu",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+#banner{
+    background-color: #fff;
+    .banner-top{
+        width: 1090px;
+        margin:auto;
+        padding-top:20px;
+        padding-bottom:10px;
+    }
+    .b-top-main{
+        display: flex;
+        padding-bottom: 15px;
+        .login{
+            width: 330px;
+        }
+        .search{
+            overflow: hidden;
+            position: relative;
+            width: 511px;
+            height: 36px;
+            margin-top:14px;
+            border:2px solid red;
+            border-radius:20px ;
+            line-height: 36px;  
+            background-color: #fff;
+            .search-icon{
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                margin:0 5px;
+                vertical-align: -2px;
+                background: url("../image/header/01bg.png") -466px -667px;
+            } 
+            input{
+                width: 415px;
+                border:0;
+            } 
+            input:focus{
+               outline: none;
+            }
+            input::-webkit-input-placeholder{
+                font-size:14px;
+                font-style: italic;
+            }
+            .find-btn{
+                position: absolute;
+                right:-2px;
+                top:-2px;
+                width: 60px;
+                height: 40px;
+                background:red url("../image/banner/search.png")no-repeat center;
+                border-radius: 20px;
+            }
+        }
+        .shopping{
+            flex:1;
+            margin-left:50px;
+            >a{
+                display: block;
+                font-size:14px;
+                color:#333;
+                width: 110px;
+                height: 36px;
+                margin-top:14px;
+                border:2px solid red;
+                border-radius: 20px;
+                line-height: 38px;
+                i{
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    margin:0 5px 0 16px;
+                    background: url("../image/banner/shopping.png")no-repeat;
+                    vertical-align: -3px;
+                }
+                &:hover{
+                    background:rgba(255,0,0,.05);
+                }
+            }
+            
+        }
+    }
+    .b-top-nav{
+        display: flex;
+        margin:25px 0 0 210px;
+        a{
+            font-size:15px;
+            font-weight: bold;
+            margin-right:40px;
+            color:#333;
+            &:hover{
+                color:red;
+            }
+        }
+        .active{
+            color:red;
+        }
+    }
+    //轮播图部分
+    .banner-middle{
+        position: relative;
+        width: 100%;
+        height: 505px;
+        .banner-img{
+           position: relative;
+           width: 100%; 
+           height: 505px;
+           li{
+               position: absolute;
+               top:0;
+               left:0;
+               right: 0;
+               text-align: center;
+               height: 505px;
+               overflow: hidden;
+               img{
+                height: 505px;
+               }
+           }
+           .banner-btns{
+                position: absolute;
+                left:0;
+                right:0;
+                width: 1090px;
+                height: 505px;
+                margin:auto;
+                cursor: pointer;
+                .banner-btn{
+                    display: none;
+                    position: absolute;
+                    top:50%;
+                    width: 35px;
+                    height: 70px;
+                    transform: translateY(-50%);
+                    background: url("../image/header/01bg.png")no-repeat;
+                }
+                .btn-left{
+                    left:170px;
+                    background-position: -625px -68px;
+                    &:hover{
+                        background-position: -625px -153px;
+                    }
+                }
+                .btn-right{
+                    right:0;
+                    background-position: -670px -68px;
+                    &:hover{
+                        background-position: -670px -153px;
+                    }
+                }
+                &:hover .banner-btn{
+                    display: block;
+                }
+                .bot{
+                    position: absolute;
+                    left:214px;
+                    bottom:82px;
+                    span{
+                        display: inline-block;
+                        width: 10px;
+                        height: 10px;
+                        background-color:rgba(255,0,0,.7);
+                        border-radius: 50%;
+                    }
+                }
+
+            }
+            
+        }
+        .banner-info{
+            position: absolute;
+            left:0;
+            bottom:0;
+            width: 100%;
+            height: 45px;
+            background-color:rgba(0,0,0,.3);
+            .info-content{
+                display: flex;
+                width: 1090px;
+                height:100%;
+                margin:0 auto;
+                line-height: 45px;
+                .info-left{
+                    width: 880px;
+                    >ul{
+                        display: flex;
+                        height: 45px;
+                        li{
+                            margin-right:40px;
+                            a{
+                               display: block;
+                               height: 100%;
+                               color:#fff;
+                               span{
+                                   display: inline-block;
+                                   width: 22px;
+                                   height: 24px;
+                                   font-size:22px;
+                                   margin-right:5px;
+                                   vertical-align: -3px;
+                               } 
+                               &:hover{
+                                   text-decoration: underline;
+                               }
+                            }
+                        }
+                    }
+
+                }
+                .info-right{
+                    flex: 1;
+                    a{
+                        color:#fff;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                       i{
+                            display: inline-block;
+                            width: 20px;
+                            height: 20px;
+                            margin-right:5px;
+                            background: url("../image/banner/newuser.png")no-repeat;
+                            vertical-align: -6px;
+                        }
+                    }
+                }
+            }
+        }
+        .menu{
+            position: absolute;
+            left:50%;
+            top:-41px;
+            width: 164px;
+            margin-left:-545px;
+            background: linear-gradient(to right,#f00,#ff3264);
+            .menu-title{
+                display: flex;
+                height: 40px;
+                line-height: 40px;
+                border-bottom: 1px solid #ff5160;
+                .icon{
+                    padding-top:15px;
+                    margin:0 24px 0 15px;
+                    i{
+                        display: block;
+                        width: 15px;
+                        height: 2px;
+                        margin-bottom:3px;
+                        background-color: #fff;
+                    }
+                }
+                h2{
+                    font-size:14px;
+                    color:#fff;
+                }
+            }
+            .menu-list{
+                ul.menu-aside>li{
+                    padding:0 5px;
+                    >a{
+                        display: flex;
+                        width: 154px;
+                        height: 37.33px;
+                        font-size:14px;
+                        color:#fff;
+                        line-height: 37px;
+                        border-bottom: 1px solid #ff5160;
+                    }
+                    >a.line{
+                        border:none;
+                    }
+                    >a:hover{
+                        color:red;
+                        background-color: #fff;
+                    }
+                }
+                .menu-item i{
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    margin: 8px 20px 0 10px;
+                    background: url("../image/banner/menu/01menu.png")no-repeat 0/20px;
+                }
+                .menu-item em{
+                    flex: 1;
+                    text-align: right;
+                    margin-right:16px;
+                    font-size:15px;
+                    color:#ffabb2;
+                }
+                .item2 i{
+                    background-image: url("../image/banner/menu/02menu.png");
+                }
+                .item3 i{
+                    background-image: url("../image/banner/menu/03menu.png");
+                }
+                .item4 i{
+                    background-image: url("../image/banner/menu/04menu.png");
+                }
+                .item5 i{
+                    background-image: url("../image/banner/menu/05menu.png");
+                }
+                .item6 i{
+                    background-image: url("../image/banner/menu/06menu.png");
+                }
+                .item7 i{
+                    background-image: url("../image/banner/menu/07menu.png");
+                }
+                .item8 i{
+                    background-image: url("../image/banner/menu/08menu.png");
+                }
+                .item9 i{
+                    background-image: url("../image/banner/menu/09menu.png");
+                }
+                .item10 i{
+                    background-image: url("../image/banner/menu/10menu.png");
+                }
+                .item11 i{
+                    background-image: url("../image/banner/menu/11menu.png");
+                }
+                .item12 i{
+                    background-image: url("../image/banner/menu/12menu.png");
+                }
+                .item1 a:hover i{
+                    background-image: url("../image/banner/menu/0101menu.png");
+                }
+                .item2 a:hover i{
+                    background-image: url("../image/banner/menu/0202menu.png");
+                }
+                .item3 a:hover i{
+                    background-image: url("../image/banner/menu/0303menu.png");
+                }
+                .item4 a:hover i{
+                    background-image: url("../image/banner/menu/0404menu.png");
+                }
+                .item5 a:hover i{
+                    background-image: url("../image/banner/menu/0505menu.png");
+                }
+                .item6 a:hover i{
+                    background-image: url("../image/banner/menu/0606menu.png");
+                }
+                .item7 a:hover i{
+                    background-image: url("../image/banner/menu/0707menu.png");
+                }
+                .item8 a:hover i{
+                    background-image: url("../image/banner/menu/0808menu.png");
+                }
+                .item9 a:hover i{
+                    background-image: url("../image/banner/menu/0909menu.png");
+                }
+                .item10 a:hover i{
+                    background-image: url("../image/banner/menu/1010menu.png");
+                }
+                .item11 a:hover i{
+                    background-image: url("../image/banner/menu/1111menu.png");
+                }
+                .item12 a:hover i{
+                    background-image: url("../image/banner/menu/1212menu.png");
+                }
+
+            }
+            /*menu的hover侧边栏*/
+            .menu-list {
+                position: relative;
+                .menu-hover{
+                    display: none;
+                }
+                .all-item{
+                    display: flex;
+                    position: absolute;
+                    top:0;
+                    left: 164px;
+                    width: 934px;
+                    height: 458px;
+                    background-color:#F6F6F6;
+                    border: 1px solid red;
+                    border-left:0;
+                    .all-left{
+                        display: flex;
+                        width: 680px;
+                        padding-left:15px;
+                        background-color: #fff;
+                        .all-list{
+                            width: 330px;
+                            >li{
+                                margin-bottom:15px;
+                            }
+                            .kind-title{
+                                height: 35px;
+                                padding-left:5px;
+                                margin-bottom:5px;                      
+                                line-height: 35px;
+                                border-bottom: 1px solid #eee;
+                                font-weight: bold;
+                                a{
+                                    color:#000;
+                                    font-size:14px;
+                                }
+                            }
+                            .kind-pro{
+                                width: 260px;
+                                line-height: 34px;
+                                a{
+                                    color:#333;
+                                    float: left;
+                                    margin: 0 10px;
+                                }
+                                .hot{
+                                    color:red;
+                                }
+                            }
+                        }
+                    }
+                    .all-right{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        width: 218px;
+                        padding:10px 10px 0;
+                        >a{
+                            display: block;
+                            height: 104px;
+                            margin-bottom:4px;
+                            border:1px solid #eee;
+                            img{
+                                width: 104px;
+                                height: 104px;
+                            }
+                        }
+                        .last{
+                            margin-top: 10px;
+                            border:0;
+                            img{
+                                width: 215px;
+                                height: 88px;
+                            }
+                        }
+                    }
+                }
+            }
+            // hover 出现侧边栏
+            .menu-item:hover .menu-hover{
+                display: block;
+            }
+
+        }
+    }
+}

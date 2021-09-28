@@ -1,0 +1,159 @@
+.aside-left{
+    overflow: hidden;
+    position: absolute;
+    top:710px;
+    left:50%;
+    width: 99px;
+    margin-left: -670px;
+    background-color: #fff;
+    .aside-hot{
+        line-height: 50px;
+        border:1px solid #eee;
+        a{
+            display: block;
+            color:#000;
+            font-size:14px;
+            text-indent: 10px;
+            font-weight: bold;
+        }
+        &:hover a{
+            background-color: #F7F7F7;
+            color:red;
+        }
+        
+    }
+    .aside-list{
+        padding:10px 0;
+        border:1px solid #eee;
+        line-height: 30px;
+        border-top:0;
+        a{
+            display: block;
+            color:#999;
+            text-indent: 10px;
+            &:hover{
+                background-color: #F7F7F7;
+                color:red;
+            }
+        }
+    }
+}
+.aside-right{
+    position: absolute;
+    top:710px;
+    left:50%;
+    width: 62px;
+    margin-left: 570px;
+    background-color: #fff;
+    border:1px solid #eaeaea;
+    li+li{
+        border-top:1px solid #eaeaea;
+    }
+    li:hover{
+        background-color: #F6F6F6;
+    }
+    li>a{
+        display: block;
+        padding-top:12px;
+        height:48px;
+        text-align: center;
+        line-height: 1;
+        color:#999;
+    }
+    i{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background:url("../image/content/aside/01.png")no-repeat;
+    }
+    li:hover >a{
+        color:red;
+    }
+    li:hover i{
+        background-image: url("../image/content/aside/02.png");
+    }
+    li:nth-child(2) i{
+        background-image: url("../image/content/aside/03.png");
+    }
+    li:nth-child(2):hover i{
+        background-image: url("../image/content/aside/04.png");
+    }
+    li:nth-child(3) i{
+        background-image: url("../image/content/aside/05.png");
+    }
+    li:nth-child(3):hover i{
+        background-image: url("../image/content/aside/06.png");
+    }
+    li:nth-child(4) i{
+        background-image: url("../image/content/aside/07.png");
+    }
+    li:nth-child(4):hover i{
+        background-image: url("../image/content/aside/08.png");
+    }
+    li:nth-child(1),
+    li:nth-child(3){
+        position: relative;
+    }
+
+    .hover-txt{
+        display: none;
+        position: absolute;
+        right:73px;
+        top:13px;
+        border:1px solid #eee;
+        background-color: #fff;
+        border-radius: 5px;
+        a{
+            display: block;
+            width: 50px;
+            padding:9px 17px;
+            color:#333;
+        }
+        &::after{
+            content:"";
+            position: absolute;
+            right:-8px;
+            top:15px;
+            border:8px solid transparent;
+            border-right:0;
+            border-left-color:#fff;
+        }
+        &::before{
+            content:"";
+            position: absolute;
+            right:-9px;
+            top:14px;
+            border:8px solid transparent;
+            border-right:0;
+            border-left-color:#eee;
+        }
+
+    }
+    .hover-img{
+        display: none;
+        position: absolute;
+        right:75px;
+        top:-45px;
+        width: 145px;
+        height: 175px;
+        padding-top:45px;
+        background:url("../image/content/aside/bg.png")no-repeat;
+        h4{
+            margin-top:8px;
+            font-weight: bold;
+            font-size:14px;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            color: red;
+        }
+    }
+    .hover-img img{
+        margin-left:10px;
+    }
+    li:nth-child(1):hover .hover-txt,
+    li:nth-child(3):hover .hover-img{
+        display: block;
+    }
+}

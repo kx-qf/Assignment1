@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment4</title>
+    <link rel="stylesheet" href="assignment4.css">
+    <script src="assignment4.js"></script>
+</head>
+<body>
+    <div>
+    <form id="form">
+        <legend><b><h1> Member Registration</h1></b></legend>
+        <br>
+        <b><h4>Please complete all the fields below</h4></b>
+    <table>
+            <tr>
+                <td><label for="firstname">First Name:</label></td>
+                <td><input type="text" id="fname" name="fName" required="required"></td>
+                <td><p id="userfirstnameError" class="errorMsg"></p></td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Last Name:</label></td>
+                <td><input type="text" id="lname" name="lName" required="required"></td>
+                <td><p id="userlastnameError" class="errorMsg"></p></td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address:</label></td>
+                <td><input type="text" id="add" name="Add" required="required"></td>
+                <td><p id="addrError" class="errorMsg"></p></td>
+            </tr>
+            <tr>
+                <td><label for="City">City:</label></td>
+                <td><input type="text" id="city" name="City" required="required"></td>
+                <td><p id="cityError" class="errorMsg"></p></td>
+            </tr>
+            <tr>
+                <td><label for="Postal Code">Postal Code:</label></td>
+                <td> <input type="text" id="postal" name="Postal" pattern="[a-zA-Z][0-9][a-zA-Z](-| |)[0-9][a-zA-Z][0-9]" required="required"></td>
+                <td><p id="postalError" class="errorMsg"></p></td>
+            </tr>
+            <tr>
+                <td> <label for="Province">Province:</label></td>
+                <td> <input type="text" id="province" name="Province" required="required"></td>
+                <td><p id="provinceError" class="errorMsg"></p></td>
+            </tr>
+            <tr>
+                <td><label for="Age">Age:</label></td>
+                <td> <input type="text" id="age" name="Age" required="required"></td>
+                <td><p id="ageError" class="errorMsg"></p></td>
+            </tr>
+            <tr>
+                <td><label for="Password">Password:</label></td>
+                <td><input type="text" id="password" name="Password" required="required"></td>
+                
+            </tr>
+            <tr>
+                <td><label for="Confirm">Confirm:</label></td>
+                <td><input type="text" id="confirm" name="Confirm" required="required"></td>
+                <td><p id="passwordError" class="errorMsg"></p></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email:</label></td>
+                <td> <input type="text" id="email" name="Email" required="required"></td>
+                <td><p id="emailError" class="errorMsg"></p></td>
+            </tr>
+    </table>
+        <input type="submit" id="submit" value="Register Now" />
+        <input type="reset" id="clear"  value="Clear Form" />
+    </form>
+</div>
+    <footer>
+        <p>@Copyright Zhaoji Chen - 301083061 - COMP125 - SEC006</p>
+    </footer>
+</body>
+</html>

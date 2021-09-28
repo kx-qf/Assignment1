@@ -1,0 +1,69 @@
+<!-- Home -->
+<% if(title == "Home"){%>
+    <a class="nav-link active"aria-current="page" href="/home"><i class="fas fa-laptop-house"></i> Home</a>
+    <a class="nav-link active"aria-current="page" href="/about"><i class="fas fa-info-circle"></i> About me</a>
+    <a class="nav-link active"aria-current="page" href="/projects"><i class="fab fa-elementor"></i> Project</a>
+    <a class="nav-link active"aria-current="page" href="/services"><i class="fas fa-cogs"></i> Services</a>
+    <a class="nav-link active"aria-current="page" href="/contact"><i class="fas fa-mobile-alt"></i> Contact</a>
+<%}else{ %>
+    <% } %>
+<!-- About -->
+<% if(title == "About"){%>
+    <ul class="personinfor">
+        <li><b>Name:</b> Zhaoji Chen</li>
+        <li><b>Program:</b>  3408</li>
+        <li><b>Student number:</b> 301083061</li>
+        <li><b>Section:</b> 015</li>
+        <li><b>Why do i want to learn in this program?</b></li>
+        <li>I want to learn how to design a good website and upload it to the internet in this program.</li>
+        <li><b>Resume: </b><a href="/Assets/ZhaojiChenResume.pdf">Zhaoji Chen.pdf</a></li>
+    </ul>
+    <div class="person"><img src="/Assets/images/person.jpg" alt=""></div>
+<%}else{ %>
+    <% } %>
+<!-- Projects -->
+<% if(title == "Projects"){%>
+    <ul class="projects">
+        <li>
+            <div><b>HTML/CSS: </b><br>
+                <a href="/Assets/kaola/index.html"><img src="/Assets/images/kaola.PNG" alt=""></a></div>
+        </li>
+        <li>
+            <div><b>JS: </b><br>
+                <a href="/Assets/pug/assignment5.html"><img src="/Assets/images/pug.PNG" alt=""></a></div>
+        </li>
+        <li>
+            <div><b>JS: </b><br>
+                <a href="/Assets/survey/assignment4.html"><img src="/Assets/images/survey.PNG" alt=""></a></div>
+        </li>
+    </ul>
+<%}else{ %>
+    <% } %>
+<!-- Services -->
+<% if(title == "Services"){%>
+    <ul class="services">
+        <li><i class="fas fa-laptop"></i></i> <b>General Programming</b><br>
+            <img src="/Assets/images/programming.png" alt="">
+        </li>
+        <li><i class="far fa-window-restore"></i> <b>Web Development</b><br>
+            <img src="/Assets/images/WebDevelopment.jpg" alt="">
+        </li>
+        <li><i class="fas fa-mobile"></i> <b>Mobile Apps</b><br>
+            <img src="/Assets/images/mobileapp.jpg" alt="">
+        </li>
+    </ul>
+<%}else{ %>
+    <% } %>
+<!-- Contact -->
+<% if(title == "Contact"){%>
+    <ul class="contact">
+        <li><b>Name: </b>ZhaojiChen</li>
+        <li><b>E-mail: </b><a href="mailto:12345679@gmail.com">12345679@gmail.com</a></li>
+        <li><b>Phone number: </b>(+1)1234567890</li>
+        <li><b>Wechat: </b><br>
+            <img src="/Assets/images/wechat.jpg" alt=""></li>
+        <li><b>Ins: </b><br>
+            <img src="/Assets/images/ins.jpg" alt=""></li>
+    </ul>
+<%}else{ %>
+    <% } %>

@@ -1,0 +1,46 @@
+/* About */
+.personinfor{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+.personinfor li{
+    margin-top: 20px;
+}
+.person{
+    display:inline-block;
+    position: relative;
+    bottom: 175px;
+    right: 100px;
+
+}
+/* Project */
+.projects{
+    list-style: none;
+    padding: 0;
+}
+.projects li{
+    margin-top: 20px;
+}
+.projects li div a{
+    padding: 40px;
+}
+/* Services */
+.services{
+    list-style: none;
+    padding: 0;
+}
+.services li{
+    margin-top: 20px;
+}
+.services li img{
+    margin-left: 40px;
+}
+/* contact */
+.contact{
+    list-style: none;
+    padding: 0;
+}
+.contact li img{
+    margin-left: 40px;
+}

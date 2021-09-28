@@ -1,0 +1,437 @@
+#banner {
+  background-color: #fff;
+}
+#banner .banner-top {
+  width: 1090px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#banner .b-top-main {
+  display: flex;
+  padding-bottom: 15px;
+}
+#banner .b-top-main .login {
+  width: 330px;
+}
+#banner .b-top-main .search {
+  overflow: hidden;
+  position: relative;
+  width: 511px;
+  height: 36px;
+  margin-top: 14px;
+  border: 2px solid red;
+  border-radius: 20px ;
+  line-height: 36px;
+  background-color: #fff;
+}
+#banner .b-top-main .search .search-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 5px;
+  vertical-align: -2px;
+  background: url("../image/header/01bg.png") -466px -667px;
+}
+#banner .b-top-main .search input {
+  width: 415px;
+  border: 0;
+}
+#banner .b-top-main .search input:focus {
+  outline: none;
+}
+#banner .b-top-main .search input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-style: italic;
+}
+#banner .b-top-main .search .find-btn {
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  width: 60px;
+  height: 40px;
+  background: red url("../image/banner/search.png") no-repeat center;
+  border-radius: 20px;
+}
+#banner .b-top-main .shopping {
+  flex: 1;
+  margin-left: 50px;
+}
+#banner .b-top-main .shopping > a {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  width: 110px;
+  height: 36px;
+  margin-top: 14px;
+  border: 2px solid red;
+  border-radius: 20px;
+  line-height: 38px;
+}
+#banner .b-top-main .shopping > a i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px 0 16px;
+  background: url("../image/banner/shopping.png") no-repeat;
+  vertical-align: -3px;
+}
+#banner .b-top-main .shopping > a:hover {
+  background: rgba(255, 0, 0, 0.05);
+}
+#banner .b-top-nav {
+  display: flex;
+  margin: 25px 0 0 210px;
+}
+#banner .b-top-nav a {
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 40px;
+  color: #333;
+}
+#banner .b-top-nav a:hover {
+  color: red;
+}
+#banner .b-top-nav .active {
+  color: red;
+}
+#banner .banner-middle {
+  position: relative;
+  width: 100%;
+  height: 505px;
+}
+#banner .banner-middle .banner-img {
+  position: relative;
+  width: 100%;
+  height: 505px;
+}
+#banner .banner-middle .banner-img li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 505px;
+  overflow: hidden;
+}
+#banner .banner-middle .banner-img li img {
+  height: 505px;
+}
+#banner .banner-middle .banner-img .banner-btns {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 1090px;
+  height: 505px;
+  margin: auto;
+  cursor: pointer;
+}
+#banner .banner-middle .banner-img .banner-btns .banner-btn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  width: 35px;
+  height: 70px;
+  transform: translateY(-50%);
+  background: url("../image/header/01bg.png") no-repeat;
+}
+#banner .banner-middle .banner-img .banner-btns .btn-left {
+  left: 170px;
+  background-position: -625px -68px;
+}
+#banner .banner-middle .banner-img .banner-btns .btn-left:hover {
+  background-position: -625px -153px;
+}
+#banner .banner-middle .banner-img .banner-btns .btn-right {
+  right: 0;
+  background-position: -670px -68px;
+}
+#banner .banner-middle .banner-img .banner-btns .btn-right:hover {
+  background-position: -670px -153px;
+}
+#banner .banner-middle .banner-img .banner-btns:hover .banner-btn {
+  display: block;
+}
+#banner .banner-middle .banner-img .banner-btns .bot {
+  position: absolute;
+  left: 214px;
+  bottom: 82px;
+}
+#banner .banner-middle .banner-img .banner-btns .bot span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 0, 0, 0.7);
+  border-radius: 50%;
+}
+#banner .banner-middle .banner-info {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#banner .banner-middle .banner-info .info-content {
+  display: flex;
+  width: 1090px;
+  height: 100%;
+  margin: 0 auto;
+  line-height: 45px;
+}
+#banner .banner-middle .banner-info .info-content .info-left {
+  width: 880px;
+}
+#banner .banner-middle .banner-info .info-content .info-left > ul {
+  display: flex;
+  height: 45px;
+}
+#banner .banner-middle .banner-info .info-content .info-left > ul li {
+  margin-right: 40px;
+}
+#banner .banner-middle .banner-info .info-content .info-left > ul li a {
+  display: block;
+  height: 100%;
+  color: #fff;
+}
+#banner .banner-middle .banner-info .info-content .info-left > ul li a span {
+  display: inline-block;
+  width: 22px;
+  height: 24px;
+  font-size: 22px;
+  margin-right: 5px;
+  vertical-align: -3px;
+}
+#banner .banner-middle .banner-info .info-content .info-left > ul li a:hover {
+  text-decoration: underline;
+}
+#banner .banner-middle .banner-info .info-content .info-right {
+  flex: 1;
+}
+#banner .banner-middle .banner-info .info-content .info-right a {
+  color: #fff;
+}
+#banner .banner-middle .banner-info .info-content .info-right a:hover {
+  text-decoration: underline;
+}
+#banner .banner-middle .banner-info .info-content .info-right a i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background: url("../image/banner/newuser.png") no-repeat;
+  vertical-align: -6px;
+}
+#banner .banner-middle .menu {
+  position: absolute;
+  left: 50%;
+  top: -41px;
+  width: 164px;
+  margin-left: -545px;
+  background: linear-gradient(to right, #f00, #ff3264);
+  /*menu的hover侧边栏*/
+}
+#banner .banner-middle .menu .menu-title {
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ff5160;
+}
+#banner .banner-middle .menu .menu-title .icon {
+  padding-top: 15px;
+  margin: 0 24px 0 15px;
+}
+#banner .banner-middle .menu .menu-title .icon i {
+  display: block;
+  width: 15px;
+  height: 2px;
+  margin-bottom: 3px;
+  background-color: #fff;
+}
+#banner .banner-middle .menu .menu-title h2 {
+  font-size: 14px;
+  color: #fff;
+}
+#banner .banner-middle .menu .menu-list ul.menu-aside > li {
+  padding: 0 5px;
+}
+#banner .banner-middle .menu .menu-list ul.menu-aside > li > a {
+  display: flex;
+  width: 154px;
+  height: 37.33px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 37px;
+  border-bottom: 1px solid #ff5160;
+}
+#banner .banner-middle .menu .menu-list ul.menu-aside > li > a.line {
+  border: none;
+}
+#banner .banner-middle .menu .menu-list ul.menu-aside > li > a:hover {
+  color: red;
+  background-color: #fff;
+}
+#banner .banner-middle .menu .menu-list .menu-item i {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 8px 20px 0 10px;
+  background: url("../image/banner/menu/01menu.png") no-repeat 0/20px;
+}
+#banner .banner-middle .menu .menu-list .menu-item em {
+  flex: 1;
+  text-align: right;
+  margin-right: 16px;
+  font-size: 15px;
+  color: #ffabb2;
+}
+#banner .banner-middle .menu .menu-list .item2 i {
+  background-image: url("../image/banner/menu/02menu.png");
+}
+#banner .banner-middle .menu .menu-list .item3 i {
+  background-image: url("../image/banner/menu/03menu.png");
+}
+#banner .banner-middle .menu .menu-list .item4 i {
+  background-image: url("../image/banner/menu/04menu.png");
+}
+#banner .banner-middle .menu .menu-list .item5 i {
+  background-image: url("../image/banner/menu/05menu.png");
+}
+#banner .banner-middle .menu .menu-list .item6 i {
+  background-image: url("../image/banner/menu/06menu.png");
+}
+#banner .banner-middle .menu .menu-list .item7 i {
+  background-image: url("../image/banner/menu/07menu.png");
+}
+#banner .banner-middle .menu .menu-list .item8 i {
+  background-image: url("../image/banner/menu/08menu.png");
+}
+#banner .banner-middle .menu .menu-list .item9 i {
+  background-image: url("../image/banner/menu/09menu.png");
+}
+#banner .banner-middle .menu .menu-list .item10 i {
+  background-image: url("../image/banner/menu/10menu.png");
+}
+#banner .banner-middle .menu .menu-list .item11 i {
+  background-image: url("../image/banner/menu/11menu.png");
+}
+#banner .banner-middle .menu .menu-list .item12 i {
+  background-image: url("../image/banner/menu/12menu.png");
+}
+#banner .banner-middle .menu .menu-list .item1 a:hover i {
+  background-image: url("../image/banner/menu/0101menu.png");
+}
+#banner .banner-middle .menu .menu-list .item2 a:hover i {
+  background-image: url("../image/banner/menu/0202menu.png");
+}
+#banner .banner-middle .menu .menu-list .item3 a:hover i {
+  background-image: url("../image/banner/menu/0303menu.png");
+}
+#banner .banner-middle .menu .menu-list .item4 a:hover i {
+  background-image: url("../image/banner/menu/0404menu.png");
+}
+#banner .banner-middle .menu .menu-list .item5 a:hover i {
+  background-image: url("../image/banner/menu/0505menu.png");
+}
+#banner .banner-middle .menu .menu-list .item6 a:hover i {
+  background-image: url("../image/banner/menu/0606menu.png");
+}
+#banner .banner-middle .menu .menu-list .item7 a:hover i {
+  background-image: url("../image/banner/menu/0707menu.png");
+}
+#banner .banner-middle .menu .menu-list .item8 a:hover i {
+  background-image: url("../image/banner/menu/0808menu.png");
+}
+#banner .banner-middle .menu .menu-list .item9 a:hover i {
+  background-image: url("../image/banner/menu/0909menu.png");
+}
+#banner .banner-middle .menu .menu-list .item10 a:hover i {
+  background-image: url("../image/banner/menu/1010menu.png");
+}
+#banner .banner-middle .menu .menu-list .item11 a:hover i {
+  background-image: url("../image/banner/menu/1111menu.png");
+}
+#banner .banner-middle .menu .menu-list .item12 a:hover i {
+  background-image: url("../image/banner/menu/1212menu.png");
+}
+#banner .banner-middle .menu .menu-list {
+  position: relative;
+}
+#banner .banner-middle .menu .menu-list .menu-hover {
+  display: none;
+}
+#banner .banner-middle .menu .menu-list .all-item {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 164px;
+  width: 934px;
+  height: 458px;
+  background-color: #F6F6F6;
+  border: 1px solid red;
+  border-left: 0;
+}
+#banner .banner-middle .menu .menu-list .all-item .all-left {
+  display: flex;
+  width: 680px;
+  padding-left: 15px;
+  background-color: #fff;
+}
+#banner .banner-middle .menu .menu-list .all-item .all-left .all-list {
+  width: 330px;
+}
+#banner .banner-middle .menu .menu-list .all-item .all-left .all-list > li {
+  margin-bottom: 15px;
+}
+#banner .banner-middle .menu .menu-list .all-item .all-left .all-list .kind-title {
+  height: 35px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  line-height: 35px;
+  border-bottom: 1px solid #eee;
+  font-weight: bold;
+}
+#banner .banner-middle .menu .menu-list .all-item .all-left .all-list .kind-title a {
+  color: #000;
+  font-size: 14px;
+}
+#banner .banner-middle .menu .menu-list .all-item .all-left .all-list .kind-pro {
+  width: 260px;
+  line-height: 34px;
+}
+#banner .banner-middle .menu .menu-list .all-item .all-left .all-list .kind-pro a {
+  color: #333;
+  float: left;
+  margin: 0 10px;
+}
+#banner .banner-middle .menu .menu-list .all-item .all-left .all-list .kind-pro .hot {
+  color: red;
+}
+#banner .banner-middle .menu .menu-list .all-item .all-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 218px;
+  padding: 10px 10px 0;
+}
+#banner .banner-middle .menu .menu-list .all-item .all-right > a {
+  display: block;
+  height: 104px;
+  margin-bottom: 4px;
+  border: 1px solid #eee;
+}
+#banner .banner-middle .menu .menu-list .all-item .all-right > a img {
+  width: 104px;
+  height: 104px;
+}
+#banner .banner-middle .menu .menu-list .all-item .all-right .last {
+  margin-top: 10px;
+  border: 0;
+}
+#banner .banner-middle .menu .menu-list .all-item .all-right .last img {
+  width: 215px;
+  height: 88px;
+}
+#banner .banner-middle .menu .menu-item:hover .menu-hover {
+  display: block;
+}

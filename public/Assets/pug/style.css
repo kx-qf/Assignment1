@@ -1,0 +1,51 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+
+}
+
+#result-container {
+    margin-left: 5%;
+}
+
+#canvas-container {
+    background-image: url(bg.png);
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    background-size: cover;
+}
+
+.button {
+    background-color: #9ed3f1;
+    border-color: blue;
+    border-style: solid;
+    border-width: 5px;
+    color: rgb(44, 7, 253);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  h3{
+      color: blue;
+  }
+
+  h2{
+      color: blue;
+  }
