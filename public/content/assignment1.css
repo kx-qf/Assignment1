@@ -1,3 +1,39 @@
+/* Home */
+.homeinfo{
+    width: 48.95vw;
+    height: 20.83vw;
+}
+.homepersoninfo{
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 100px;
+    width: 23.075vw;
+    height: 14.59vw;
+    color: #000;
+}
+.student{
+    width: 635px;
+    height: 400px;
+    margin: 1px auto;
+}
+.homeimg{
+    display: inline-block;
+    position: absolute;
+    bottom: 430px;
+    right: 635px;
+}
+.link{
+    margin-top: 1.53vw;
+}
+.link a{
+    color: rgb(255, 255, 255);
+}
+.link li{
+    display: inline-block;
+    margin-left: 1.53vw;
+}
+
 /* About */
 .personinfor{
     display: inline-block;
@@ -8,11 +44,9 @@
     margin-top: 20px;
 }
 .person{
-    display:inline-block;
     position: relative;
-    bottom: 175px;
-    right: 100px;
-
+    top: -280px;
+    left: 530px;
 }
 /* Project */
 .projects{
@@ -29,18 +63,68 @@
 .services{
     list-style: none;
     padding: 0;
+    color: #ffffff;
+    background-image: linear-gradient(to top, rgba(9, 32, 63, 1) 0%, rgba(83, 120, 149,0.1) 100%);
 }
 .services li{
     margin-top: 20px;
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 10px;
 }
 .services li img{
     margin-left: 40px;
 }
-/* contact */
-.contact{
-    list-style: none;
-    padding: 0;
+.servicesbg{
+    background-color: rgb(3, 8, 34);
 }
-.contact li img{
-    margin-left: 40px;
+/* contact */
+.contactsurvey{
+    display: inline-block;
+}
+.contactborder{
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.contact div input, textarea{
+    width: 500px;
+}
+.contact div{
+    padding-top: 10px;
+}
+.contactinfo{
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+.contactinfo li{
+    list-style: none;
+    padding: 5px;
+}
+.insimg{
+    display: none;
+    transition: all 30s linear;
+}
+.ins:hover +.insimg{
+    display: block;
+    transform: scale(1.1);
+    transition: all 30s linear;
+}
+.wechatimg{
+    display: none;
+}
+.wechat:hover  +.wechatimg{
+    display: block;
+}
+
+
+/* bg */
+main{
+    color: #ffffff;
+}
+body{
+    background-image: url("/Assets/images/background.jpg");
+    background-size: cover;
+}
+
+.title{
+    background-image: linear-gradient( #ffffff 0%,rgba(0,0,0,0.5) 20%, rgba(0,0,0,0) 100%);
 }

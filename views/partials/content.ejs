@@ -1,10 +1,21 @@
 <!-- Home -->
 <% if(title == "Home"){%>
-    <a class="nav-link active"aria-current="page" href="/home"><i class="fas fa-laptop-house"></i> Home</a>
-    <a class="nav-link active"aria-current="page" href="/about"><i class="fas fa-info-circle"></i> About me</a>
-    <a class="nav-link active"aria-current="page" href="/projects"><i class="fab fa-elementor"></i> Project</a>
-    <a class="nav-link active"aria-current="page" href="/services"><i class="fas fa-cogs"></i> Services</a>
-    <a class="nav-link active"aria-current="page" href="/contact"><i class="fas fa-mobile-alt"></i> Contact</a>
+    <div class="homebg">
+        <div class="homeinfo">
+            <div class="student"><img src="/Assets/images/studentcard.PNG" alt=""></div>
+            <div class="homeimg"><a href="/about"><img src="/Assets/images/homeperson.jpg" alt=""></a></div>
+        </div>
+        
+        <div class="link">
+            <ul>
+                <li><a class="nav-link active"aria-current="page" href="/home"><i class="fas fa-laptop-house"></i> Home</a></li>
+                <li><a class="nav-link active"aria-current="page" href="/about"><i class="fas fa-info-circle"></i> About me</a></li>
+                <li><a class="nav-link active"aria-current="page" href="/projects"><i class="fab fa-elementor"></i> Project</a></li>
+                <li><a class="nav-link active"aria-current="page" href="/services"><i class="fas fa-cogs"></i> Services</a></li>
+                <li><a class="nav-link active"aria-current="page" href="/contact"><i class="fas fa-mobile-alt"></i> Contact</a></li>
+            </ul>
+        </div>
+    </div>
 <%}else{ %>
     <% } %>
 <!-- About -->
@@ -18,7 +29,6 @@
         <li>I want to learn how to design a good website and upload it to the internet in this program.</li>
         <li><b>Resume: </b><a href="/Assets/ZhaojiChenResume.pdf">Zhaoji Chen.pdf</a></li>
     </ul>
-    <div class="person"><img src="/Assets/images/person.jpg" alt=""></div>
 <%}else{ %>
     <% } %>
 <!-- Projects -->
@@ -46,17 +56,20 @@
             <img src="/Assets/images/programming.png" alt="">
         </li>
         <li><i class="far fa-window-restore"></i> <b>Web Development</b><br>
-            <img src="/Assets/images/WebDevelopment.jpg" alt="">
+            <img src="/Assets/images/web.png" alt="">
+        </li>
+        <li><i class="fab fa-chrome"></i> <b>Web Design</b><br>
+            <img src="/Assets/images/webd.png" alt="">
         </li>
         <li><i class="fas fa-mobile"></i> <b>Mobile Apps</b><br>
-            <img src="/Assets/images/mobileapp.jpg" alt="">
+            <img src="/Assets/images/phone.png" alt="">
         </li>
     </ul>
 <%}else{ %>
     <% } %>
 <!-- Contact -->
 <% if(title == "Contact"){%>
-    <ul class="contact">
+    <!-- <ul class="contact">
         <li><b>Name: </b>ZhaojiChen</li>
         <li><b>E-mail: </b><a href="mailto:12345679@gmail.com">12345679@gmail.com</a></li>
         <li><b>Phone number: </b>(+1)1234567890</li>
@@ -64,6 +77,52 @@
             <img src="/Assets/images/wechat.jpg" alt=""></li>
         <li><b>Ins: </b><br>
             <img src="/Assets/images/ins.jpg" alt=""></li>
-    </ul>
+    </ul> -->
+    <div class="contact">
+        <div class="contactsurvey">
+            <div><h1>Contact me</h1></div>
+            <div class="contactborder"></div>
+            <div class="contactname">
+                <label for="name">Name</label><br>
+                <input name="name" id="name" type="text" placeholder="Your name..." required="">
+            </div>
+            <div class="contactemail">
+                <label for="email" class="font-weight-bold">Email address</label><br>
+                <input name="email" id="email" type="email" placeholder="Your email..."  required="">
+            </div>
+            <div class="contactphone">
+                <label for="email" class="font-weight-bold">Phone number</label><br>
+                <input name="email" id="email" type="email" placeholder="Your email..."  required="">
+            </div>
+            <div class="contactmessage">
+                <label for="comments" class="font-weight-bold">Message</label><br>
+                <textarea name="comments" id="comments" rows="4" placeholder="Your message..." required=""></textarea>
+            </div>
+            <div class="contactsend">
+                <input type="submit" value="Send" >
+            </div>
+        </div>
+        <div class="contactinfo">
+            <ul>
+                <li>
+                    <div class="name"><i class="fas fa-user-circle"></i> Name: Zhaoji Chen</div>
+                </li>
+                <li>
+                    <div class="email"><i class="fas fa-envelope"></i> E-mail: <a href="mailto:1235464@gmail.com">1235464@gmail.com</a></div>
+                </li>
+                <li>
+                    <div class="phone"><i class="fas fa-phone"></i> Phone: 1-123-456-7890</div>
+                </li>
+                <li>
+                    <div class="ins"><i class="fab fa-instagram"></i> Ins:</div>
+                    <div class="insimg"><img src="/Assets/images/ins.jpg" alt=""></div>
+                </li>
+                <li>
+                    <div class="wechat"><i class="fab fa-weixin"></i> Wechat:</div>
+                    <div class="wechatimg"><img src="/Assets/images/wechat.jpg" alt=""></div>
+                </li>
+            </ul>
+        </div>
+    </div>
 <%}else{ %>
     <% } %>
