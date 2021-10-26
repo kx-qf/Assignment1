@@ -101,13 +101,22 @@
     display: block;
 }
 
-
+/* table */
+table{
+    background: rgb(255, 255, 255);
+}
+label{
+    color: #ffffff;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
 /* bg */
 main{
     color: #ffffff;
 }
 body{
-    /* background-image: url("/Assets/images/background.jpg"); */
+    background-image: url("/Assets/images/background.jpg");
     background-size: cover;
 }
 
