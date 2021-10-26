@@ -1,0 +1,37 @@
+<%- include ../partials/header.ejs %> 
+<%- include ../partials/main_nav.ejs %> 
+
+<!-- content for the Add page -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+            <h1><%= title %> </h1>
+
+            <form class="form" method="POST">
+                <div class="form-group">
+                    <label for="">Contact Name</label>
+                    <input type="text" class="form-control" id="nameTextField" placeholder="Enter your contect name" name="contactsName" value="<%= contact.contactsName %>" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Contact Number</label>
+                    <input type="text" class="form-control" id="numberTextField" placeholder="Enter your contect number" name="contactsNumber" value="<%= contact.contactsNumber %>" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="">E-mail Address</label>
+                    <input type="text" class="form-control" id="emailTextField" placeholder="Enter your email-address" name="EmailAddress" value="<%= contact.EmailAddress %>" required>
+                </div>
+
+                <button class="btn btn-primary" type="submit"><i class="fas fa-edit"></i>Submit</button>
+
+                <a href="/contacts-list" class="btn btn-warning"><i class="fa fa-undo">Cancel</i></a>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<%- include ../partials/bottom_nav.ejs %> 
+<%- include ../partials/footer.ejs %> 
